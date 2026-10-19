@@ -160,6 +160,18 @@ Add `decoding="async"` to non-LCP images to prevent image decoding from blocking
 - Hyphenated, lowercase, no special characters
 - Include relevant keywords
 
+### Contextual Placement
+- Image placed adjacent to text covering the same subject (Google uses surrounding
+  content to interpret the image)
+- Meaningful caption (`<figcaption>`) where the image carries information
+- Image referenced from the section it illustrates, not dumped in a decorative
+  gallery far from the related copy
+- Flag images whose nearest heading/paragraph is unrelated to their alt text
+
+### Displayed vs Intrinsic Size
+- Intrinsic width should match the largest rendered width (x2 for retina), no more
+- Flag images downscaled by more than 2x in the layout: they ship wasted bytes
+
 ### CDN Usage
 - Check if images served from CDN (different domain, CDN headers)
 - Recommend CDN for image-heavy sites

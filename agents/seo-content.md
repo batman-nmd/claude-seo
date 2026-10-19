@@ -83,8 +83,8 @@ AI content is acceptable IF it demonstrates genuine E-E-A-T. Flag these markers 
 
 ## Cross-Skill Delegation
 
-- For evaluating programmatically generated pages, defer to the `seo-programmatic` sub-skill.
-- For comparison page content standards, see `seo-competitor-pages`.
+- For evaluating programmatically generated pages, defer to the `programmatic-seo` skill.
+- For comparison page content standards, see the `competitors` skill.
 
 ## Output Format
 
